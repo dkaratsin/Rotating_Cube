@@ -155,7 +155,7 @@ void main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH); /* default, not needed */
 	glutInitWindowSize(windowWidth, windowHeight); /* 500 x 500 pixel window */
 	glutInitWindowPosition(0, 0); /* place window top left on display */
-	glutCreateWindow("2nd_Project"); /* window title */
+	glutCreateWindow("Rotating Cube"); /* window title */
 
 	glDrawBuffer(GL_BACK);
 	myinit(); /* set attributes */
